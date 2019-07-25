@@ -1,4 +1,4 @@
-package cn.org.fubin.socket;
+package cn.org.fubin.socket.chat;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;

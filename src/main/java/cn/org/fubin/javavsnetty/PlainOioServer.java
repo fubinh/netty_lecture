@@ -8,6 +8,8 @@ import java.nio.charset.Charset;
 
 /**
  *
+ * Java原生阻塞IO
+ *
  * */
 public class PlainOioServer {
     public void serve(int port) throws IOException {
@@ -17,6 +19,8 @@ public class PlainOioServer {
                 final Socket clientSocket = socket.accept();
                 System.out.println(
                         "Accepted connection from " + clientSocket);
+
+                //新线程处理业务请求
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
