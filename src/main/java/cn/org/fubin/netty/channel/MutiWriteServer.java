@@ -1,4 +1,4 @@
-package cn.org.fubin.test.mutiwrite;
+package cn.org.fubin.netty.channel;
 
 import cn.org.fubin.socket.SocketServerHandler;
 import cn.org.fubin.socket.SocketServerInitalizer;
